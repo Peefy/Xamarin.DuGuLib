@@ -151,12 +151,6 @@ Use DependencyService.Get<T> to get interface.For example :
 ```c#
 DependencyService.Get<IScreen>().GetFullSize();
 ```
-
-### *ViewModels*
-
-* ListViewModelBase
-* ViewModelBase
-
 * IAndroidFinish
 * IAndroidToolBar
 * IKeyBoard
@@ -164,6 +158,11 @@ DependencyService.Get<IScreen>().GetFullSize();
 * IScreen
 * IToast
 * NavigationService(This is a class,not interface)
+
+### *ViewModels*
+
+* ListViewModelBase
+* ViewModelBase
 
 ## Thanks
 If you like it or it help you.Thanks for *fork* and *star*.
